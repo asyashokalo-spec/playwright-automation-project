@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe.only('MY API TESTS', () => {
     const baseURL = 'https://jsonplaceholder.typicode.com';
 
-    test.only('Testing Get Request', async ({ request }) => {
+    test('Testing Get Request', async ({ request }) => {
 
         const response = await request.get(`${baseURL}/posts/1`);
         //console.log(await response.text());
