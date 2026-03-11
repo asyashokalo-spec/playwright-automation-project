@@ -21,6 +21,9 @@ export class CheckboxPage extends BasePage {
         await checkBox.uncheck();
     }
 
+    async checkOfCheckboxState(checkBox: Locator) {
+        return checkBox.isChecked();
+    }
 
     async expectChecked(checkBox: Locator) {
         await expect(checkBox).toBeChecked();

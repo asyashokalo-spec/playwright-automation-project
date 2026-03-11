@@ -5,6 +5,8 @@ Pet project of Asya Shokalo
 UI Tests:
 - login Test
 - logout Test
+- checkbox Test
+- dropdown Test
 
 API Tests
 - GET
