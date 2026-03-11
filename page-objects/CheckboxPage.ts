@@ -10,11 +10,15 @@ export class CheckboxPage extends BasePage {
     constructor(page: Page) {
         super(page);
         this.checkBox1 = page.locator('#checkboxes input').first();
-        this.checkBox2 = page.locator('#checkboxes.input').nth(1);
+        this.checkBox2 = page.locator('#checkboxes input').nth(1);
     }
 
-    async checkboxClick(checkBox: Locator) {
-        await checkBox.click();
+    async checkboxCheck(checkBox: Locator) {
+        await checkBox.check();
+    }
+
+    async checkboxUnCheck(checkBox: Locator) {
+        await checkBox.uncheck();
     }
 
 

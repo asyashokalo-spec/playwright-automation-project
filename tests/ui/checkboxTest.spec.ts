@@ -1,7 +1,7 @@
 import { test } from '@playwright/test';
 import { CheckboxPage } from '../../page-objects/CheckboxPage';
 
-test.describe('Pack of tests for checkBox page', () => {
+test.describe.only('Pack of tests for checkBox page', () => {
 
     let checkboxPage: CheckboxPage;
 
@@ -11,9 +11,9 @@ test.describe('Pack of tests for checkBox page', () => {
     })
 
     test('CheckBox test', async ({ page }) => {
-        await checkboxPage.checkboxClick(checkboxPage.checkBox1);
+        await checkboxPage.checkboxCheck(checkboxPage.checkBox1);
         await checkboxPage.expectChecked(checkboxPage.checkBox1);
-        await checkboxPage.checkboxClick(checkboxPage.checkBox2);
+        await checkboxPage.checkboxUnCheck(checkboxPage.checkBox2);
         await checkboxPage.expectUnchecked(checkboxPage.checkBox2);
 
 

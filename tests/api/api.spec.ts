@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe.only('MY API TESTS', () => {
+test.describe('MY API TESTS', () => {
     const baseURL = 'https://jsonplaceholder.typicode.com';
 
     test('Testing Get Request', async ({ request }) => {
