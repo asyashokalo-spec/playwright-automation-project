@@ -10,8 +10,8 @@ const config: PlaywrightTestConfig = {
         viewport: { width: 1280, height: 720 }, // dimension of browser window
         actionTimeout: 15000, //timeout for each action such as click, fill, etc
         // ignoreHTTPSErrors: true,
-        video: 'off', //automatically record a video of test execution
-        screenshot: 'off'
+        video: 'retain-on-failure', //automatically record a video of test execution
+        screenshot: 'only-on-failure'
     },
 
     projects: [
