@@ -11,3 +11,4 @@ export class BasePage {
         await this.page.goto(`${path}`);
     }
 }
+

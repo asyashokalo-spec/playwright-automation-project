@@ -7,6 +7,7 @@ UI Tests:
 - logout Test
 - checkbox Test
 - dropdown Test
+- dynamic-loading Test
 
 API Tests
 - GET
