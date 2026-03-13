@@ -10,6 +10,7 @@ UI Tests:
 - dynamic-loading Test
 - add-remove elements Test
 - popup Test
+- window Test
 
 API Tests
 - GET
