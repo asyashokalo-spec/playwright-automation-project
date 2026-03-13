@@ -8,6 +8,8 @@ UI Tests:
 - checkbox Test
 - dropdown Test
 - dynamic-loading Test
+- add-remove elements Test
+- popup Test
 
 API Tests
 - GET
