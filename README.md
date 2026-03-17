@@ -11,6 +11,7 @@ UI Tests:
 - add-remove elements Test
 - popup Test
 - window Test
+- dynamicsControls Test
 
 API Tests
 - GET
