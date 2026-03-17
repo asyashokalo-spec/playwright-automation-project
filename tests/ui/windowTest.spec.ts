@@ -15,5 +15,6 @@ test.describe('Tests for Windows', () => {
 
         await newPage.waitForLoadState();
         await expect(newPage.getByRole('heading', { name: 'New Window' })).toContainText('New Window');
+
     })
 })

@@ -4,7 +4,7 @@ Pet project of Asya Shokalo
 
 UI Tests:
 - login Test
-- logout Test
+- logout Test (with/without storageState)
 - checkbox Test
 - dropdown Test
 - dynamic-loading Test

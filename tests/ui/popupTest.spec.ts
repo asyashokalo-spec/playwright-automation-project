@@ -8,8 +8,8 @@ test.describe('Tests for Popup page', () => {
         popupPage = new PopupPage(page);
         await popupPage.open('javascript_alerts');
         page.once('dialog', async dialog => {
-            await dialog.dismiss();
             expect(dialog.message()).toContain('I am a JS Confirm');
+            await dialog.dismiss();
         });
         await popupPage.tapjsConfirm();
         await popupPage.expectResult('You clicked: Cancel');

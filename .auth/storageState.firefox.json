@@ -1,0 +1,55 @@
+{
+  "cookies": [
+    {
+      "name": "optimizelySegments",
+      "value": "%7B%7D",
+      "domain": ".the-internet.herokuapp.com",
+      "path": "/",
+      "expires": 1808297416.356,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "optimizelyEndUserId",
+      "value": "oeu1773737416357r0.4268361746293353",
+      "domain": ".the-internet.herokuapp.com",
+      "path": "/",
+      "expires": 1808297416.357,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "optimizelyBuckets",
+      "value": "%7B%7D",
+      "domain": ".the-internet.herokuapp.com",
+      "path": "/",
+      "expires": 1808297416.357,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "rack.session",
+      "value": "BAh7CkkiD3Nlc3Npb25faWQGOgZFVEkiRWI4ZWQ0NjQ0ODg4NjY4MTlhZjVi%0AZWUzZjE0ZWM5MjcxN2RlZTdhZjlmYjY0N2FlOGZiOTIxNzQ0NWUzOWYyY2UG%0AOwBGSSIJY3NyZgY7AEZJIiViM2E3YzkwODMyYTVmN2QyYjZjN2JjMjFlOThh%0AYzIxZgY7AEZJIg10cmFja2luZwY7AEZ7B0kiFEhUVFBfVVNFUl9BR0VOVAY7%0AAFRJIi05NjgxZThkMjM2OTQ4OWE4NTViODY0ZDc1YzlmODQ0NDNmYzI1Njg2%0ABjsARkkiGUhUVFBfQUNDRVBUX0xBTkdVQUdFBjsAVEkiLTEwODBjOGZkNjQy%0ANzJiZDg1OTZmZjI4MjMwNzVjMDUzOWNjNDNkOGEGOwBGSSIKZmxhc2gGOwBG%0AewBJIg11c2VybmFtZQY7AEZJIg10b21zbWl0aAY7AFQ%3D%0A--ad845699e897671a581fba441b8d954a95c0a669",
+      "domain": "the-internet.herokuapp.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "None"
+    },
+    {
+      "name": "optimizelyPendingLogEvents",
+      "value": "%5B%22n%3Dhttps%253A%252F%252Fthe-internet.herokuapp.com%252Fsecure%26u%3Doeu1773737416357r0.4268361746293353%26wxhr%3Dtrue%26t%3D1773737417608%26f%3D298349752%2C318188263%22%2C%22n%3Dengagement%26g%3D298283957%26u%3Doeu1773737416357r0.4268361746293353%26wxhr%3Dtrue%26t%3D1773737417308%26f%3D298349752%2C318188263%22%2C%22n%3Dhttps%253A%252F%252Fthe-internet.herokuapp.com%252Flogin%26u%3Doeu1773737416357r0.4268361746293353%26wxhr%3Dtrue%26t%3D1773737416358%26f%3D298349752%2C318188263%22%5D",
+      "domain": ".the-internet.herokuapp.com",
+      "path": "/",
+      "expires": 1773737432,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "None"
+    }
+  ],
+  "origins": []
+}

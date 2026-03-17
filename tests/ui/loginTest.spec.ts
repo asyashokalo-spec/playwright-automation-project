@@ -10,7 +10,6 @@ test.describe('Login cases for Users', () => {
     test.beforeEach('Going to Login page', async ({ page }) => {
         loginPage = new LoginPage(page);
         securePage = new SecurePage(page);
-        // await loginPage.open('/login');
         await loginPage.open('login');
     })
 
