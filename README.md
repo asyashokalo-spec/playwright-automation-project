@@ -12,6 +12,7 @@ UI Tests:
 - popup Test
 - window Test
 - dynamicsControls Test
+- iFrame Test
 
 API Tests
 - GET
