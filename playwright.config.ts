@@ -16,19 +16,44 @@ const config: PlaywrightTestConfig = {
     reporter: 'html',
 
     projects: [
+
+        {
+            name: 'setup-chromium',
+            use: { browserName: 'chromium' },
+            testMatch: '**/auth.setup.spec.ts'
+        },
+
+        {
+            name: 'setup-firefox',
+            use: { browserName: 'firefox' },
+            testMatch: '**/auth.setup.spec.ts'
+        },
+
+        {
+            name: 'setup-webkit',
+            use: { browserName: 'webkit' },
+            testMatch: '**/auth.setup.spec.ts'
+        },
+
         {
             name: 'Chromium',
-            use: { browserName: 'chromium' }
+            use: { browserName: 'chromium' },
+            testIgnore: '**/auth.setup.spec.ts', //or it'll be run with all tests and dependency will be ruined
+            dependencies: ['setup-chromium']
         },
 
         {
             name: 'Firefox',
-            use: { browserName: 'firefox' }
+            use: { browserName: 'firefox' },
+            testIgnore: '**/auth.setup.spec.ts',
+            dependencies: ['setup-firefox']
         },
 
         {
             name: 'Webkit',
-            use: { browserName: 'webkit' }
+            use: { browserName: 'webkit' },
+            testIgnore: '**/auth.setup.spec.ts',
+            dependencies: ['setup-webkit']
         }
     ]
 }

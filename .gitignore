@@ -1,3 +1,4 @@
 node_modules
 playwright-reports
 test-results
+.auth
