@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { UploadPage } from '../../page-objects/UploadPage';
 
-test.describe.only('Tests for Upload', () => {
+test.describe('Tests for Upload', () => {
     let uploadPage: UploadPage;
 
     test.beforeEach(async ({ page }) => {

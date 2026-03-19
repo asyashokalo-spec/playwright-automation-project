@@ -14,7 +14,7 @@ export class IframePage extends BasePage {
 
     async clearText() {
         await this.editor.click();
-        await this.editor.fill('');
+        await this.editor.clear();
     }
 
     async enterText(text: string) {
