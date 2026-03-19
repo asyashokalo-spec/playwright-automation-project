@@ -13,6 +13,7 @@ UI Tests:
 - window Test
 - dynamicsControls Test
 - iFrame Test
+- Upload file Test
 
 API Tests
 - GET
